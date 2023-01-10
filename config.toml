@@ -1,0 +1,90 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'CHMOD777 Link Tree'
+
+[Params]
+  # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
+  description = "CHMOD777 Static Tree"
+  [Params.Terminal]
+  # Note: color schema
+  # Note: You can choose between
+  # Note: ["monokai", "powershell", "gruvbox_light", "gruvbox_dark", "solarized_light", "solarized_dark", "ubuntu", "retro"]
+  # Note: If you want to use the Goph theme, set it to "goph" (See README.md)
+  schema = "Molokai"
+
+  # Note: in terminal
+  # [userName]@[pcName]:~/$ cd [workDir]
+  # [userName]@[pcName]:~/[workDir]$ cat [profile]
+  #
+  # [description]
+  #
+  # Note: if you set Params.Tree > use = true
+  # [userName]@[pcName]:~/[workDir]$ tree ./[folderName]/
+  # ./[folderName]/
+  # ...
+  # Note: result of the tree command
+  userName = "user"
+  pcName = "portal"
+  workDir = "mydir"
+  profile = "about_me.txt"
+
+  # Note: speed at which text is displayed on the terminal
+  # Note: if set to 0, typing animation will be disabled
+  # Note:
+  # Note: if you want to enable Mathjax, you need to set it to 0
+  # Note: and set "math: true" at front matter in your Markdown file
+  ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
+  stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
+  commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+
+  # terminalDelay = 20 : deprecated
+
+  # Note: speed at which text is displayed on the activity pages
+  # Note: if set to 0, typing animation will be disabled
+  # Note: 
+  # Note: if you want to enable Mathjax, you need to set it to 0
+  # Note: and set "math: true" at front matter in your Markdown file
+  titleDelay = 0 # title speed : "title" in front matter
+  contentDelay = 0 # content speed : content in .md file
+
+  # activityDelay = 5 : deprecated
+
+  description = """
+  
+  Hello! I am Ryan.
+  You can find me on <a rel="me" href="https://infosec.exchange/@chmod777">Mastodon</a> as chmod777.
+  Currently I am an ITIL Process Manager, 
+  but my goal is to break out of ITIL and 
+  into a SOC or GRC type of role in the future. 
+
+  This terminal tree site you are viewing 
+  started off as a quick project, 
+  experimenting with static site generators (SSG).
+  In fact, this site was built with Hugo. 
+  After a couple hours of reviewing docs and videos, 
+  this site was made. 
+
+  The purpose of this site is to showcase 
+  some of my endeavors in IT industry. 
+  As I continue along in my cybersecurity journey, 
+  this site may grow and adapt as well. 
+
+  Stay tuned!
+  
+  """
+
+  # Note: If you want to use a Markdown file, you can use the following
+  # description = "/description.md"
+  # Note: and put the description.md in /content/description.md
+
+  [Params.Tree]
+  use = true
+  folderName = "my_activity"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+	["Mastodon", "https://infosec.exchange/@chmod777"],
+  	["LinkedIn", "https://www.linkedin.com/in/ryanphopp/"],
+    ["Certifications", "https://www.credly.com/users/ryan-hopp.fdb7eb75/badges"],
+    ["TryHackMe Profile", "https://tryhackme.com/p/ryan.hopp"],
+    ["LetsDefend.io Profile", "https://app.letsdefend.io/public-profile/user/chmod777/659f1bf7-d0f4-4928-81b9-f8801fe0ad29"],
+  ]
