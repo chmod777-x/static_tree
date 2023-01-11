@@ -10,7 +10,7 @@ title = 'CHMOD777 Link Tree'
   # Note: You can choose between
   # Note: ["monokai", "powershell", "gruvbox_light", "gruvbox_dark", "solarized_light", "solarized_dark", "ubuntu", "retro"]
   # Note: If you want to use the Goph theme, set it to "goph" (See README.md)
-  schema = "Molokai"
+  schema = "monokai"
 
   # Note: in terminal
   # [userName]@[pcName]:~/$ cd [workDir]
