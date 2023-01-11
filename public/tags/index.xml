@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on CHMOD777 Link Tree</title>
-    <link>https://chmod777.me/tags/</link>
+    <link>https://www.chmod777.me/tags/</link>
     <description>Recent content in Tags on CHMOD777 Link Tree</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://chmod777.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.chmod777.me/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
