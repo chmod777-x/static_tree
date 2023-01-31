@@ -60,7 +60,8 @@ title = 'CHMOD777 Link Tree'
   This terminal tree site you are viewing 
   started off as a quick project, 
   experimenting with static site generators (SSG).
-  In fact, this site was built with Hugo. 
+  The more I explored the topic of SSGs on <a rel="me" href="https://infosec.exchange/@chmod777">Mastodon</a>,
+  the more I became intrigued with Hugo and wanting to build a SSG of my own.
   After a couple hours of reviewing docs and videos, 
   this site was made. 
 
@@ -83,7 +84,6 @@ title = 'CHMOD777 Link Tree'
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["Mastodon", "https://infosec.exchange/@chmod777"],
-    [<a rel="me" href="https://infosec.exchange/@chmod777">Mastodon</a>]
     ["LinkedIn", "https://www.linkedin.com/in/ryanphopp/"],
     ["Certifications", "https://www.credly.com/users/ryan-hopp.fdb7eb75/badges"],
     ["TryHackMe Profile", "https://tryhackme.com/p/ryan.hopp"],
