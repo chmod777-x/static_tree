@@ -51,11 +51,11 @@ title = 'CHMOD777 Link Tree'
 
   description = """
   
-  Hello! I am Ryan.
-  You can find me on <a rel="me" href="https://infosec.exchange/@chmod777">Mastodon</a> as chmod777.
+  Hello! My name is Ryan.
+  # You can find me on <a rel="me" href="https://infosec.exchange/@chmod777">Mastodon</a> as chmod777.
   Currently I am an ITIL Process Manager, 
   but my goal is to break out of ITIL and 
-  into a SOC or GRC type of role in the future. 
+  into a cybersecurity related role in the future. 
 
   This terminal tree site you are viewing 
   started off as a quick project, 
@@ -82,8 +82,9 @@ title = 'CHMOD777 Link Tree'
   folderName = "my_activity"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-	["Mastodon", "https://infosec.exchange/@chmod777"],
-  	["LinkedIn", "https://www.linkedin.com/in/ryanphopp/"],
+    ["Mastodon", "https://infosec.exchange/@chmod777"],
+    [<a rel="me" href="https://infosec.exchange/@chmod777">Mastodon</a>]
+    ["LinkedIn", "https://www.linkedin.com/in/ryanphopp/"],
     ["Certifications", "https://www.credly.com/users/ryan-hopp.fdb7eb75/badges"],
     ["TryHackMe Profile", "https://tryhackme.com/p/ryan.hopp"],
     ["LetsDefend.io Profile", "https://app.letsdefend.io/public-profile/user/chmod777/659f1bf7-d0f4-4928-81b9-f8801fe0ad29"],
